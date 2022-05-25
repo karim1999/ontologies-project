@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Attends -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Attends"/>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Content -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Content"/>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Studies_In -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Studies_In"/>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Taken_In -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Taken_In"/>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Teaches -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Teaches"/>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Teaches_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Teaches_in"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Address">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Professor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Student"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#University"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Professor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Email">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Professor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Field_Of_Study -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Field_Of_Study">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Professor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#GPA -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#GPA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Student"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#GPA"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#ID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#ID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Professor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Room"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Student"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Subject"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#University"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Course"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Professor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Student"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Subject"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#University"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Salary -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Salary">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Professor"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Salary"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minExclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100000.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Size">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Room"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Student"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Type"/>
+                        <owl:hasValue>Graduate</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Type"/>
+                        <owl:hasValue>Undergraduate</owl:hasValue>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Year">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Course -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Course">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Content"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Subject"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Taken_In"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Professor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Professor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Teaches_in"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#University"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Teaches"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Course"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Room -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Room"/>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Studies_In"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#University"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Attends"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Course"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Subject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#University -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#University"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Ahmed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Ahmed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Professor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Ain_Shams -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Ain_Shams">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#University"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Calculus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Calculus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Geometry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Geometry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Course"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Karim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Karim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Student"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Math -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Math">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Mohamed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Mohamed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Professor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Mostafa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Mostafa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Student"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Physics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Physics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Room1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Room1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Room"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Room2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Room2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Room"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Saber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Saber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Student"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
