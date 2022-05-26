@@ -134,7 +134,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
@@ -189,7 +189,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
@@ -351,7 +351,7 @@
         <Field_Of_Study>Math</Field_Of_Study>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ID>
         <Name>Ahmed</Name>
-        <Salary rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</Salary>
+        <Salary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000.0</Salary>
     </owl:NamedIndividual>
     
 
@@ -399,7 +399,7 @@
         <Studies_In rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Ain_Shams"/>
         <Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Age>
         <Email>karim@domain.com</Email>
-        <GPA rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</GPA>
+        <GPA rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</GPA>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ID>
         <Name>Karim</Name>
         <Type>Undergraduate</Type>
@@ -426,7 +426,7 @@
         <Field_Of_Study>Physics</Field_Of_Study>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ID>
         <Name>Mohamed</Name>
-        <Salary rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</Salary>
+        <Salary rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2000.0</Salary>
     </owl:NamedIndividual>
     
 
@@ -439,7 +439,7 @@
         <Studies_In rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Ain_Shams"/>
         <Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Age>
         <Email>mostafa@example.com</Email>
-        <GPA rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.2</GPA>
+        <GPA rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</GPA>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ID>
         <Name>Mostafa</Name>
         <Type>Graduate</Type>
@@ -486,7 +486,7 @@
         <Attends rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Geometry"/>
         <Studies_In rdf:resource="http://www.semanticweb.org/administrator/ontologies/2022/4/untitled-ontology-2#Ain_Shams"/>
         <Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</Age>
-        <GPA rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</GPA>
+        <GPA rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</GPA>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ID>
         <Name>Saber</Name>
         <Type>Undergraduate</Type>
