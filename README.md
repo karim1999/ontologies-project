@@ -1,6 +1,9 @@
 # University Project
 ## Project Statement
-
+In this project we aim to apply a Resource Description
+Framework (RDF) in order to design a data model for a
+University system. We use SPARQL queries to perform some actions. Examples of these
+queries will be shown here.
 ## Classes
 ````
 University
